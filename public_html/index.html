@@ -1,0 +1,500 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/styles/lib/featherlight/release/featherlight.min.css">
+    <link rel="stylesheet" href="assets/styles/static/css/style.css">
+    <link rel="stylesheet" href="assets/styles/static/css/header.css">
+    <link rel="stylesheet" href="assets/styles/static/css/footer.css"> 
+    <link rel="shortcut icon" type="image/jpeg" href="assets/img/prl.jpg"/> 
+
+    <title>IROS 2018 Workshop: Machine Learning in Robot Motion Planning</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/static/ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/static/ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/static/ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/static/ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/static/ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/static/ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/static/ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/static/ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/ico/favicon-16x16.png">
+    <link rel="manifest" href="/static/ico/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/static/ico/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+  </head>
+  <body>
+    <div id="prl-header">
+      <div class="container">
+        <h3 align="center">IROS 2018 Workshop</h3>
+        <h1 class="unitmark" align="center">Machine Learning in Robot Motion Planning</h1>
+        <h3 align="center">October 5, 2018 | Madrid, Spain</h4>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <nav class="navbar">
+              <ul class="list-inline">
+                <li><a class="nav-item" href="#description">Home</a></li>
+                <li><a class="nav-item" href="#dates">Dates</a></li>
+                <li><a class="nav-item" href="#submissions">Submissions</a></li>
+                <li><a class="nav-item" href="#program">Program</a></li>
+                <li><a class="nav-item" href="#organizers">Organizers</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+      </div>
+    </div>
+<div class="container">
+
+<h3 id="description">Description</h3>
+<div class="row">
+  <div class="col-xs-12">
+  <p>
+    Motion planning has a rich and varied history. The bulk of the research in planning has focused on development of tractable algorithms with provable <i>worst-case performance guarantees</i>. In contrast, well-understood theory and practice in machine learning is concerned with <i>expected</i> performance (e.g. supervised learning). As affordable sensors, actuators and robots that navigate, interact and collect data proliferate, we are motivated to examine new algorithmic questions such as &quot What roles can statistical techniques play in overcoming traditional bottlenecks in planning?&quot, &quotHow do we maintain worst-case performance guarantees while leveraging learning to improve expected performance?&quot and &quot How can common limitations inherited from data-driven methods (e.g. covariate shift) be mitigated while combining with traditional planning methods? &quot
+<!--     Robots are leaving the cages of the industrial manufacturing production lines and the safety of research labs, and moving into the unstructured environments of everyday life. From human-in-the-way to human-in-the-loop, modern robotics problems typically involve robot interactions with and around humans. Solving such problems requires research in complementary areas: <i>algorithmic robotics</i>, such as motion planning and machine learning, and <i>human-robot interaction</i> (HRI), such as cognitive modeling, intention recognition, and activity prediction. Both areas have much to contribute to each other in terms of methods, approaches, and insights, and yet the algorithmic robotics and human-robot interaction communities remain largely disjoint groups. There are four goals for this workshop: to (1) <i>expose approaches</i> from HRI that inform algorithmic models of humans, (2) <i>identify mathematical and algorithmic tools</i> to address HRI problems, (3) <i>encourage conversation</i> between researchers in the areas of HRI and fundamental algorithms for robotics, and (4) <i>raise a series of open questions</i> that fall in the intersection of algorithmic robotics and HRI.  -->
+  </p>
+  <p>
+   Both areas have much to contribute to each other in terms of methods, approaches, and insights, and yet motion planning and machine learning communities remain largely disjoint groups. There are four technical goals for this workshop in addition to encouraging dialogue between both communities:
+  <ul>
+  <li>Formalize paradigms in motion planning where statistical methods can play an essential role.</li>
+  <li>Identify learning algorithms that can alleviate planning bottlenecks.</li>
+  <li>Better understand common pitfalls of naively combining learning and planning and explore strategies for mitigation.</li>
+  <li>Arrive at a set of critical open questions that are at the intersection of the two fields. </li>
+  </ul>
+  </p>
+  </div>
+</div>
+
+<h3 id="dates">Important Dates</h3>
+<p>(deadlines are "anywhere on earth")</p>
+<div class="row">
+<div class="col-xs-12">
+<dl class="dl-horizontal">
+  <dt>August 31 </dt> <dd>Paper submission deadline (extended!)</dd>
+  <dt>September 15</dt> <dd>Notification of acceptance</dd>
+  <dt>October 1 </dt> <dd>Camera ready deadline</dd>
+  <dt>October 5</dt> <dd>Workshop</dd>
+</dl>
+</div>
+</div>
+
+<h3 id="submissions">Submissions</h3>
+<div class="row">
+  <div class="col-xs-12">
+  <p>
+  We solicit <b>6 page papers</b> and <b>2 page extended abstracts</b> (page counts do not include references). Submissions can include original research, position papers, and literature reviews that bridge the research areas for this workshop. Submissions will be externally reviewed, and selected based on technical content and ability to positively contribute to the workshop.</p>
+
+  <p>The following list contains some areas of interest, but work in other areas is welcomed:
+  <ul>
+    <li> representations in planning </li>
+    <li> heuristic search </li>
+    <li> resource allocation in planning </li>
+    <li> sequential decision making </li>
+    <li> sample efficient learning </li>
+    <li> task and motion planning </li>
+  </ul>
+  </p>
+
+  <p>
+    We will accept papers in the official IEEE templates (<a href='http://ras.papercept.net/conferences/support/tex.php'>LaTeX</a> and <a href='http://ras.papercept.net/conferences/support/word.php'>Word</a>). Submissions must meet page restrictions (maximum of 6 pages for papers and 2 pages for extended abstracts), but can include additional pages as long as those pages only contain references. Reviewing will <i>not</i> be double blind. Please do not anonymize the submission.</p>
+
+  <p>
+  Papers and abstracts should be submitted through EasyChair at the following link: <b>TBD</b>. 
+  <p>
+
+  </div>
+</div>
+
+
+<h3 id="program">Program</h3>
+
+<!-- <h4>Location</h4>
+
+  <div class="col-xs-12">
+  <p>The workshop will take place in 36-156. <a href='http://www.roboticsconference.org/docs/campusmap.pdf'>Map of the workshop buildings</a> (we are in building 36).</p> 
+  </div> -->
+
+<h4>Invited Speakers</h4>
+
+<div class="row">
+  <div class="col-xs-12">
+  <p>Maxim Likhachev, CMU</p>
+  <p>Lydia Kavraki, Rice</p>
+  <p>Ariel Felner, Ben-Gurion</p>
+  <p>Sergey Levine, UC Berkley</p>
+  <p>Jeannette Bohg, Stanford</p>
+  <p>Marc Touissant, U Stuttgart</p>
+  <p>Byron Boots, GATech</p>
+  </div>
+</div>
+
+<h4>Schedule Overview</h4>
+
+<p>The workshop will include:
+<ol type="i">
+  <li> seven invited keynote speakers: These talks will be given by experts whose research spans a range of disciplines and applications.</li>
+
+  <li> a panel: Experts from each domain will lead a group discussion on open questions at the intersection of planning and learning. In the first half, panelists will be asked to present open problems and areas of contention. The second half of the panel will be in the format of a discussion, where the participants will be encouraged to engage with the presented topics or extend them by suggesting their own.</li>
+
+  <li> spotlight talks: A selection of accepted papers will be presented in a 5-8 minute spotlight talk.</li>
+
+  <li> poster session: Poster sessions will continue during all breaks to enable participants to engage in deep discussion about the presented work. </li>
+</ol>
+</p>
+
+<!-- <div class="row">
+<div class="col-xs-12">
+<div class="table-responsive">
+<table class="table">
+<thead>
+<tr>
+  <th>Time</th>
+  <th>Topic</th>
+  <th>Speaker</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>9:30 - 9:40am</td>
+  <td>Welcome and introduction</td>
+  <td><a href='http://www.orensalzman.com/'>Oren Salzman</a></td>
+</tr>
+<tr>
+  <td>9:40 - 10:05am</td>
+  <td>Fluent Human Robot Teaming for Health and Wellness</td>
+  <td><a href='http://cseweb.ucsd.edu/~lriek/'>Laurel Riek</a></td>
+</tr>
+<tr>
+  <td>10:05 - 10:30am</td>
+  <td>Flipped talk: <a href="/static/docs/wahri17/Fox.pdf">Rich Context HRI</a></td>
+  <td><a href='http://homes.cs.washington.edu/~fox/'>Dieter Fox</a></td>
+</tr>
+<tr style="background-color:lightgray">
+  <td>10:30 - 11:00am</td>
+  <td>Coffee break</td>
+  <td></td>
+</tr>
+<tr>
+  <td>11:00 - 11:25am</td>
+  <td><a href="/static/docs/wahri17/Shah.pdf">Enhancing Human Capability with Intelligent Machine Teammates</a></td>
+  <td><a href='http://people.csail.mit.edu/julie_a_shah/Welcome.html'>Julie Shah</a></td>
+</tr>
+<tr>
+  <td>11:25 - 11:35am</td>
+  <td>Extended Abstract Spotlights #1</td>
+  <td>Submission authors</td>
+</tr>
+<tr>
+  <td>11:35am - 12:00pm</td>
+  <td>Student spotlight: Game-Theoretic Modeling of Human Adaptation in Human-Robot Collaboration</td>
+  <td><a href='http://stefanosnikolaidis.net/'>Stefanos Nikolaidis</a></td>
+</tr>
+<tr style="background-color:lightgray">
+  <td>12:00 - 2:00pm</td>
+  <td>Lunch</td>
+  <td></td>
+</tr>
+<tr>
+  <td>2:00 - 2:25pm</td>
+  <td>Robots in Harmony with Humans: Adaptation and Mutual Adaptation</td>
+  <td><a href='http://www.comp.nus.edu.sg/~dyhsu/'>David Hsu</a></td>
+</tr>
+<tr>
+  <td>2:25 - 2:35pm</td>
+  <td>Extended Abstract Spotlights #2</td>
+  <td>Submission authors</td>
+</tr>
+<tr>
+  <td>2:35 - 3:00pm</td>
+  <td><a href="/static/docs/wahri17/Dragan.pdf">How will algorithmic HRI shape autonomous driving?</a></td>
+  <td><a href='http://people.eecs.berkeley.edu/~anca/'>Anca Dragan</a></td>
+</tr>
+<tr style="background-color:lightgray">
+  <td>3:00 - 3:30pm</td>
+  <td>Coffee break</td>
+  <td></td>
+</tr>
+<tr>
+  <td>3:30 - 4:20pm</td>
+  <td>Long paper spotlights</td>
+  <td>Submission authors</td>
+</tr>
+<tr>
+  <td>4:20 - 5:00pm</td>
+  <td>Poster Session</td>
+  <td>All submission authors</td>
+</tr>
+<tr>
+  <td>5:00 - 6:00pm</td>
+  <td>Tour of the MIT Media Lab Personal Robots Group</td>
+  <td><a href='http://robotic.media.mit.edu/'>Personal Robots Group</a></td>
+</tr>
+    </tbody>
+  </table>
+</div>
+</div>
+</div>
+
+ -->
+<!-- <h4>Detailed Presentation Schedule</h4>
+
+<div class="row">
+<div class="col-xs-12">
+<div class="table-responsive">
+<table class="table">
+<thead>
+  <tr>
+    <th>11:25 - 11:35am</th>
+    <th>Extended Abstract Spotlights #1 - Skill Inference</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>#11</td>
+    <td><a href='http://hennyadmoni.com/documents/wahri17/paper_11.pdf'>Skill Generalization via Inference-based Planning</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>#15</td>
+    <td><a href='http://hennyadmoni.com/documents/wahri17/paper_15.pdf'>Advancing student interaction with a learning robot: Virtual twin, connectivity, and augmented reality</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>#16</td>
+    <td><a href='http://hennyadmoni.com/documents/wahri17/paper_16.pdf'>Implicature-Based Inference for Socially-Fluent Robotic Teammates</a></td>
+    <td></td>
+  </tr>
+</tbody>
+
+<thead>
+  <tr>
+    <th>2:25 - 2:35pm</th>
+    <th>Extended Abstract Spotlights #2 - Planning</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>#2</td>
+    <td><a href='http://hennyadmoni.com/documents/wahri17/paper_2.pdf'>Challenges for Communication Decision-Making in Sequential Human-Robot Collaborative Tasks</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>#6</td>
+    <td><a href='http://hennyadmoni.com/documents/wahri17/paper_6.pdf'>Online, interactive user guidance for high-dimensional, constrained motion planning</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>#14</td>
+    <td><a href='http://hennyadmoni.com/documents/wahri17/paper_14.pdf'>Learning Behavior Policies for Interactive Educational Play</a></td>
+    <td></td>
+  </tr>
+</tbody>
+
+<thead>
+  <tr>
+    <th>3:30 - 4:20pm</th>
+    <th>Long Paper Spotlights</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td></td>
+    <td><b>Human-Robot Teaming</b></td></tr>
+  <tr>
+    <td>#3</td>
+    <td><a href='http://hennyadmoni.com/documents/wahri17/paper_3.pdf'>Human-Robot Collaboration Using Intent from Protocol-Constrained Motion: Evaluating Human-Robot Ship Interactions Under COLREGS Collision Avoidance Requirements</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>#4</td>
+    <td><a href='http://hennyadmoni.com/documents/wahri17/paper_4.pdf'>A review on task planning in Human-Robot Teams</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>#12</td>
+    <td><a href='http://hennyadmoni.com/documents/wahri17/paper_12.pdf'>Efficient Learning of Trajectory Preferences Using Combined Ratings and Rankings</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><b>Motion Planning</b></td></tr>
+  <tr>
+    <td>#5</td>
+    <td><a href='http://hennyadmoni.com/documents/wahri17/paper_5.pdf'>Inferring Strategies of Avoidance: Towards Socially Competent Navigation in Human Environments</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>#9</td>
+    <td><a href='http://hennyadmoni.com/documents/wahri17/paper_9.pdf'>Exploring Communicative Arm Motion for Human-Robot Interaction</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>#13</td>
+    <td><a href='http://hennyadmoni.com/documents/wahri17/paper_13.pdf'>Exploring Active Human Goal Inference in Shared Autonomy and Autonomous Driving</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><b>Learning</b></td></tr>
+  <tr>
+    <td>#7</td>
+    <td><a href='http://hennyadmoni.com/documents/wahri17/paper_7.pdf'>Active Learning from Critiques via Bayesian Inverse Reinforcement Learning</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>#8</td>
+    <td><a href='http://hennyadmoni.com/documents/wahri17/paper_8.pdf'>Situating Abstract Knowledge via Human Verification</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>#10</td>
+    <td><a href='http://hennyadmoni.com/documents/wahri17/paper_10.pdf'>Exploring Human-Driven Feature Selection for Robot Task Learning</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>#17</td>
+    <td><a href='http://hennyadmoni.com/documents/wahri17/paper_17.pdf'>Incremental Task Model Updates from Demonstration</a></td>
+    <td></td>
+  </tr>
+</tbody>
+
+
+</table>
+</div>
+</div>
+</div>
+ -->
+
+<!--
+<h3 id="speakers">Invited Speakers</h3>
+
+Invited speakers will continue to be updated as travel plans are finalized.
+<div class="row">
+<div class="col-xs-12">
+<p>
+<div class="row">
+<div class="col-xs-12">
+<div class="table-responsive">
+  <table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Affiliation</th>
+      <th>Topic</th>
+    </tr>
+  </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://ca.linkedin.com/in/fran%C3%A7ois-boucher-3a511511">François Boucher</a></td>
+        <td>Kinova Robotics</td>
+        <td>Assistive Robotics: Improving independence with shared autonomy</td>
+      </tr>
+      <tr>
+        <td><a href="http://bretl.csl.illinois.edu/">Timothy Bretl</a></td>
+        <td>University of Illinois at Urbana-Champaign</td>
+        <td>Shared autonomy in prosthetic hands - design, analysis, and clinical application</td>
+      </tr>
+      <tr>
+        <td><a href="https://mems.duke.edu/faculty/mary-cummings">Missy Cummings</a></td>
+        <td>Duke University</td>
+        <td>human-unmanned vehicle interaction, human-autonomous system collaboration</td>
+      </tr>
+      <tr>
+        <td><a href="http://www.iis.ee.ic.ac.uk/yiannis/webcontent/HomePage.html">Yiannis Demiris</a></td>
+        <td>Imperial College London</td>
+        <td>User Modelling for Adaptive Shared Autonomy in Adults and Children with Disabilities</td>
+      </tr>
+      <tr>
+        <td><a href="http://pages.cs.wisc.edu/~bilge/">Bilge Mutlu</td>
+        <td>University of Wisconsin-Madison</td>
+        <td>TBD</td>
+      </tr>
+      <tr>
+        <td><a href="http://www.unm.edu/~oishi/">Meeko Oishi</a></td>
+        <td>University of New Mexico</td>
+        <td>The right information at the right time: Designing user-observable interfaces through sensor placement</td>
+      </tr>
+      <tr>
+        <td><a href="http://www.mae.ucla.edu/veronica-santos/">Veronica Santos</a></td>
+        <td>UCLA</td>
+        <td>Artificial haptic intelligence for human-robot systems</td>
+      </tr>
+      <tr>
+        <td><a href="https://galois.com/team/peter-trautman/">Peter Trautman</a></td>
+        <td>Galois, Inc.</td>
+        <td>Shared autonomy architectures that are lower bounded in performance by the best performance of any member of the team: a first step towards a theory of shared autonomy</td>
+      </tr>
+    </tbody> 
+  </table>
+</div>
+</div>
+</div>
+</p>
+</div>
+</div>
+
+-->
+
+<h3 id="organizers">Organizers</h3>
+<div class="row">
+<div class="col-xs-12">
+
+<h4>Organizing Committee</h4>
+<p>
+<p><a href="http://www.sanjibanchoudhury.com">Sanjiban Choudhury</a>, University of Washington</p>
+<p><a href="http://www.debadeepta.com">Debadeepta Dey</a>, Microsoft Research</p>
+<p><a href="https://homes.cs.washington.edu/~siddh/index.html">Siddhartha Srinivasa</a>, University of Washington</p>
+<p><a href="https://ipvs.informatik.uni-stuttgart.de/mlr/marc/index.html">Marc Toussaint</a>, University of Stuttgart</p>
+<p><a href="https://www.cc.gatech.edu/~bboots3/">Byron Boots</a>, Georgia Tech</p>
+</p>
+
+<h4>Program Committee</h4>
+<!-- <p><a href="https://www.cs.unc.edu/~ron/">Ron Alterovitz</a>, University of North Carolina at Chapel Hill</p>
+<p><a href="http://lasa.epfl.ch/people/member.php?SCIPER=115671">Aude Billard</a>, &Eacute;cole Polytechnique F&eacute;d&eacute;rale de Lausanne</p> -->
+<p> TBD</p>
+</div>
+</div>
+
+
+</div>
+
+<footer id="prl-footer" class="footer">
+    <div class="container">
+        <p class="text-inverse">The 
+        <a href="https://personalrobotics.cs.washington.edu/">Personal Robotics Lab</a> is part of the 
+        <a href="https://www.cs.washington.edu/">Paul Allen School of Computer Science and Engineering</a>, 
+        <a href="http://www.washington.edu/">University of Washington</a></p>
+    </div>
+</footer>
+
+    <script type="text/javascript" src="/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/lib/lodash/lodash.min.js"></script>
+    <script type="text/javascript" src="/lib/featherlight/release/featherlight.min.js"></script>
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-66743513-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    </body>
+</html>
