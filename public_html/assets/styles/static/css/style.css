@@ -32,6 +32,17 @@ p.indent {
     text-indent: 1.5em;  
 }
 
+.speaker {
+    display:block;
+    padding-top: 30px;
+    padding-right: 20px;
+    height: 180px;
+    overflow: hidden;
+
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
 .prl-blue {
     color: #0071c5;
 }
