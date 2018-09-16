@@ -120,40 +120,72 @@
 
 <div class="row">
   <div class="col-xs-12">
-    <h4>Invited Speakers</h4>
+    <h4>Invited Talks</h4>
     <table>
 
     <tr>
     <td><img class="profile" src="assets/img/speakers/likachev.jpg" alt="likachev"> </td>
-    <td> <h4> <a href="http://www.cs.cmu.edu/~maxim/" target="_blank"> Maxim Likhachev </a> </h4> <h4 style="color:#373737;"> Carnegie Mellon University </h4></td>
-    <td> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
-    <td><img class="profile" src="assets/img/speakers/hsu.jpg" alt="hsu"> </td>
-    <td> <h4> <a href="http://www.comp.nus.edu.sg/~dyhsu/" target="_blank"> David Hsu </a> </h4> <h4 style="color:#373737;"> National University of Singapore </h4></td>
+    <td> <h4 style="color:#373737; padding-bottom: 3px;"> <a href="http://www.cs.cmu.edu/~maxim/" target="_blank"> Maxim Likhachev</a>, Carnegie Mellon University </h4>
+         <h5 style="color:#373737;font-weight:bold"> TBD </h5>
+         <p style="font-size:11px"></p>
+    </td>
     </tr>
 
     <tr>
-    <td><img class="profile" src="assets/img/speakers/faust.jpg" alt="faust"> </td>
-    <td> <h4> <a href="http://www.afaust.info/" target="_blank"> Aleksandra Faust </a> </h4> <h4 style="color:#373737;"> Google Brain </h4></td>
-    <td> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
-    <td><img class="profile" src="assets/img/speakers/bohg.jpg" alt="hsu"> </td>
-    <td> <h4> <a href="https://am.is.tuebingen.mpg.de/person/jbohg" target="_blank"> Jeannette Bohg </a> </h4> <h4 style="color:#373737;"> Stanford University </h4></td>
+      <td><img class="profile" src="assets/img/speakers/hsu.jpg" alt="hsu"> </td>
+      <td> <h4 style="color:#373737; padding-bottom: 3px;"> <a href="http://www.comp.nus.edu.sg/~dyhsu/" target="_blank"> David Hsu</a>, National University of Singapore </h4>
+           <h5 style="color:#373737;font-weight:bold"> Robot Decision-Making under Uncertainty: From Data to Actions </h5>
+           <p style="font-size:11px"> Planning and learning are two primary approaches to robot intelligence. Planning enables us to reason about the consequence of immediate actions far into the future, but it requires accurate world models, which are often difficult to acquire in practice. Policy learning circumvents the need for models and learns from data a direct mapping from robot perceptual inputs to actions. However, without models, it is much more difficult to generalize and adapt learned policies to new contexts. In this talk, I will present our recent work on robust robot decision-making under uncertainty through planning, through learning, most importantly by integrating planning and learning. This integration (i) improves planning by learning a model optimized for a specific planning algorithm and (ii) improves learning by incorporating the planning algorithm as a structure prior. It seamlessly fuses model-based planning and model-free learning. </p>
+      </td>
     </tr>
 
     <tr>
-    <td><img class="profile" src="assets/img/speakers/toussaint.jpg" alt="toussaint"> </td>
-    <td> <h4> <a href="https://ipvs.informatik.uni-stuttgart.de/mlr/marc/index.html" target="_blank"> Marc Toussaint </a> </h4> <h4 style="color:#373737;"> University of Stuttgart </h4></td>
-    <td> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
-    <td><img class="profile" src="assets/img/speakers/boots.jpg" alt="boots"> </td>
-    <td> <h4> <a href="https://www.cc.gatech.edu/~bboots3/" target="_blank"> Byron Boots </a> </h4> <h4 style="color:#373737;"> Georgia Institute of Technology </h4></td>
+      <td> <img class="profile" src="assets/img/speakers/faust.jpg" alt="faust"> </td>
+      <td> <h4 style="color:#373737; padding-bottom: 3px;"> <a href="http://www.afaust.info/" target="_blank"> Aleksandra Faust</a>, Google Brain </h4>
+           <h5 style="color:#373737;font-weight:bold"> Robot Navigation: From Abilities to Capabilities </h5>
+           <p style="font-size:11px"> Robot sensors, geometry, dynamics, and even type and quality of actuators define robot’s motion abilities. The abilities determine how the basic motion skills, such as reaching a goal or following paths without collisions, look for a particular robot. Robots with noiser sensors might move slower, while smaller robots might be able to fit through more narrow spaces. The basic motion skills can be learned through exploration and interaction with environments, independently from specific navigation tasks and environments. Once learned, the robot can use them as building blocks for more complex navigation capabilities in different environments. In this talk, we present learning robust, basic motion skills, short-distance goal navigation and path following motions, which take noisy sensor observations as inputs and output wheel velocities. Next, we examine building up from the basic motion skills. We discuss navigation through indoor buildings from floor maps, and navigation by following natural language instructions. </p>
+      </td>
     </tr>
+    
+    <tr>
+      <td> <img class="profile" src="assets/img/speakers/bohg.jpg" alt="bohg"> </td>
+      <td> <h4 style="color:#373737; padding-bottom: 3px;"> <a href="https://am.is.tuebingen.mpg.de/person/jbohg/" target="_blank"> Jeannette Bohg</a>, Stanford University </h4>
+           <h5 style="color:#373737;font-weight:bold"> Is Motion Planning Overrated? </h5>
+           <p style="font-size:11px"> I present a fully-integrated system that emphasises the importance of continuous, real-time perception and its tight integration with reactive motion generation methods for robotic grasping and manipulation in a dynamic and uncertain environment. We extensively evaluated this system and compared against baselines in manipulation scenarios that exhibit either challenging workspace geometry or a dynamic environment. We found that pure feedback control brings us surprisingly far. But one can also easily construct scenarios that demand look-ahead over a longer time horizon. This system does not rely on any machine learning but is purely based on optimisation and model-based approaches. Nevertheless, these findings have implications for what kind of problems in motion generation we may want to address through machine learning. I will specifically focus on relaxing some of the assumptions that are made in the above manipulation system. I will present our most recent work on combining learned and analytical models within a model-predictive controller. The controller consumes a sequence of images as input and outputs an optimised sequence of actions over a certain time horizon. We show how this combination addresses the limitation of covariate shift found in purely data-driven methods. </p>
+      </td>
+    </tr>    
 
     <tr>
-    <td><img class="profile" src="assets/img/speakers/kolobov.jpg" alt="kolobov"> </td>
-    <td> <h4> <a href="https://www.microsoft.com/en-us/research/people/akolobov/" target="_blank"> Andrey Kolobov </a> </h4> <h4 style="color:#373737;"> Microsoft Research </h4></td>
-    <td> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
-    <td><img class="profile" src="assets/img/organizers/srinivasa.jpg" alt="srinivasa"> </td>
-    <td> <h4> <a href="https://homes.cs.washington.edu/~siddh/index.html" target="_blank"> Siddhartha Srinivasa </a> </h4> <h4 style="color:#373737;"> University of Washington </h4></td>
+      <td> <img class="profile" src="assets/img/speakers/toussaint.jpg" alt="toussaint"> </td>
+      <td> <h4 style="color:#373737; padding-bottom: 3px;"> <a href="https://ipvs.informatik.uni-stuttgart.de/mlr/marc/index.html" target="_blank"> Marc Toussaint</a>, University of Stuttgart </h4>
+           <h5 style="color:#373737;font-weight:bold"> TBD </h5>
+           <p style="font-size:11px"> </p>
+      </td>
+    </tr>    
+
+    <tr>
+      <td> <img class="profile" src="assets/img/speakers/boots.jpg" alt="boots"> </td>
+      <td> <h4 style="color:#373737; padding-bottom: 3px;"> <a href="https://www.cc.gatech.edu/~bboots3/" target="_blank"> Byron Boots</a>, Georgia Institute of Technology </h4>
+           <h5 style="color:#373737;font-weight:bold"> TBD </h5>
+           <p style="font-size:11px"> </p>
+      </td>
+    </tr>    
+
+    <tr>
+      <td> <img class="profile" src="assets/img/speakers/kolobov.jpg" alt="kolobov"> </td>
+      <td> <h4 style="color:#373737; padding-bottom: 3px;"> <a href="https://www.microsoft.com/en-us/research/people/akolobov/" target="_blank"> Andrey Kolobov</a>, Microsoft Research </h4>
+           <h5 style="color:#373737;font-weight:bold"> Dealing with Dead Ends in Goal-Directed Reinforcement Learning </h5>
+           <p style="font-size:11px"> In many reinforcement learning scenarios, the agent strives to achieve a goal by ending up in a desirable state. Learning a good policy to get to it, in itself an involved problem due to world dynamics being generally unknown to the agent at the start, can be further complicated by the presence of dead ends --- states from which reaching the goal is impossible. Running into a dead end in the physical world means, at best, a premature end of an agent's mission, as in the case of Mars rover Spirit that got stuck in unexpectedly treacherous terrain. Even in simulated environments dead ends cause serious computational issues, slowing exploration and causing RL algorithms oblivious of them to produce unsafe policies. This talk will discuss principled optimization objectives that take dead ends into account, survey methods for maximizing them when MDP dynamics are known, and pose research questions about dealing with dead ends in model-free settings. </p>
+      </td>
     </tr>
+    
+    <tr>
+      <td> <img class="profile" src="assets/img/organizers/srinivasa.jpg" alt="srinivasa"> </td>
+      <td> <h4 style="color:#373737; padding-bottom: 3px;"> <a href="https://homes.cs.washington.edu/~siddh/index.html" target="_blank"> Siddhartha Srinivasa</a>, University of Washington </h4>
+           <h5 style="color:#373737;font-weight:bold"> TBD </h5>
+           <p style="font-size:11px"> </p>
+      </td>
+    </tr>   
 
     </table>
   </div>
